@@ -1,0 +1,29 @@
+teams:
+  - name: lfdt-staff
+    maintainers:
+      - jwagantall
+      - LF-Europe
+      - ryjones
+      - thelinuxfoundation
+    members: []
+  - name: vcpv-maintainers
+    maintainers:
+      - sonivijayk
+    members: []
+
+repositories:
+  - name: .github
+    teams:
+      lfdt-staff: maintain
+      vcpv-maintainers: maintain
+    visibility: public
+  - name: governance
+    teams:
+      lfdt-staff: maintain
+      vcpv-maintainers: maintain
+    visibility: public
+  - name: vc-profile-validator
+    teams:
+      lfdt-staff: maintain
+      vcpv-maintainers: maintain
+    visibility: public
